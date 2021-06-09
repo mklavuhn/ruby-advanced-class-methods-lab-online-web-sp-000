@@ -17,7 +17,8 @@ class Song
   end
   
   def self.new_by_name
-    
+    song = self.new 
+    name = song.to_s 
   
   def self.destroy_all
     @@all = []
