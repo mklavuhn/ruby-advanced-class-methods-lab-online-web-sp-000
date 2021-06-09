@@ -18,7 +18,8 @@ class Song
   
   def self.new_by_name
     song = self.new 
-    name = song.name
+    song.name = name 
+    song
   
   def self.destroy_all
     @@all = []
