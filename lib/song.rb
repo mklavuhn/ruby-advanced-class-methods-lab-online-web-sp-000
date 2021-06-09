@@ -20,6 +20,7 @@ class Song
     song = self.new 
     song.name = name 
     song
+  end
   
   def self.destroy_all
     @@all = []
