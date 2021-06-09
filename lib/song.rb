@@ -43,6 +43,7 @@ class Song
   
   def self.new_from_filename
     song = self.new 
+    song.name.split(" - ").chomp!(".mp3")
   
   
   def self.destroy_all
