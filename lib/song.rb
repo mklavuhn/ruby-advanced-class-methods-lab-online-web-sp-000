@@ -11,7 +11,8 @@ class Song
   end
   
   def self.create(song)
-    song = song.new
+    song = self.new
+    song
   end
   
   def self.destroy_all
